@@ -3,9 +3,9 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "SpecialCircumstances"
-name = "ForgeSmartToggle"
+name = "InscryptionWarning"
 versionNumber = "0.1.0"
-description = "Adds a third Hybrid state to the forge toggle that skips Morsels, Imps and Whelps"
+description = "Highlights which map path matches the secret Inscryption event code"
 websiteUrl = "https://thunderstore.io"
 containsNsfwContent = false
 

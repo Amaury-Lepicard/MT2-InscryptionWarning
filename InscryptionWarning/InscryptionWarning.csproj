@@ -1,14 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>ForgeSmartToggle</RootNamespace>
+    <RootNamespace>InscryptionWarning</RootNamespace>
     <LangVersion>latest</LangVersion>
     <Version>0.1.0</Version>
     <UserSecretsId>a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d</UserSecretsId>
-    <PluginDeployDir>$(MSBuildProjectDirectory)/../../mt2-plugins/ForgeSmartToggle</PluginDeployDir>
+    <PluginDeployDir>$(MSBuildProjectDirectory)/../../mt2-plugins/InscryptionWarning</PluginDeployDir>
   </PropertyGroup>
 
   <ItemGroup>

@@ -14,8 +14,8 @@ permissions:
 env:
   base_version: '0.1.0'
   mod_namespace: 'SpecialCircumstances'
-  mod_name: 'ForgeSmartToggle'
-  release_name: 'ForgeSmartToggle'
+  mod_name: 'InscryptionWarning'
+  release_name: 'InscryptionWarning'
 
 jobs:
   build:
