@@ -8,6 +8,9 @@ each of the next three branches). This mod highlights, on the map, which
 branch (left or right) matches the required bit — so the "secret" code
 actually helps you instead of being missable.
 
+The highlight appears on one node at each of the three branches the event
+checks, and stops once you've completed the event.
+
 ## Configuration
 
 `BepInEx/config/InscryptionWarning.cfg`
@@ -27,6 +30,16 @@ automatically:
 - Conductor 0.4.1
 
 Manual install: drop `InscryptionWarning.dll` into `BepInEx/plugins/`.
+
+## Known limitations
+
+- The mod has to watch the event being created to know where the three checked
+  branches are. Loading a save where the event is already underway — installing
+  the mod mid-run, or quitting and relaunching between the event and its third
+  branch — shows no hint until a fresh event is generated.
+- Only the most recent Inscryption event is tracked.
+- `Diegetic` is deliberately faint. If you can't spot it on your monitor, use
+  `Icon` instead.
 
 ## Build
 

@@ -5,8 +5,8 @@ schemaVersion = "0.0.1"
 namespace = "SpecialCircumstances"
 name = "InscryptionWarning"
 versionNumber = "0.1.0"
-description = "Highlights which map path matches the secret Inscryption event code"
-websiteUrl = "https://thunderstore.io"
+description = "Highlights on the map which branch matches the Inscryption event's secret code, so the code is actually usable. Configurable cue, from a barely-there tint to an unmissable marker."
+websiteUrl = "https://github.com/Amaury-Lepicard/MT2-InscryptionWarning"
 containsNsfwContent = false
 
 [package.dependencies]
